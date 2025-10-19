@@ -1,6 +1,9 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/MNavrBar";
 import Portfolio from "./components/Portfolio";
+import TechnologiesSection from "./components/TechnologiesSection";
+import Testimonials from "./components/Testinomials";
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
     <>
       <Navbar />
       <Portfolio />
+      <TechnologiesSection/>
+      <Testimonials/>
+      <Footer/>
     </>
   );
 }

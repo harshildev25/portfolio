@@ -63,20 +63,7 @@ export default function Portfolio() {
         />
 
         {/* Purple Blob Decoration - Fixed Position */}
-        <div className="fixed right-0 top-0 bottom-0 w-[500px] lg:w-[650px] pointer-events-none z-10 flex items-center justify-center">
-          <div
-            className="rotate-animation w-full h-full"
-            style={{
-              backgroundImage:
-                "url(https://zelio-html-demo.vercel.app/assets/imgs/hero/hero-1/decorate.png)",
-              backgroundSize: "contain",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              opacity: 0.85,
-            }}
-          />
-        </div>
-
+       
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="lg:hidden absolute top-20 left-0 right-0 bg-[#1a1a1a] z-40 py-6 px-6 mx-4 rounded-lg">
