@@ -63,7 +63,20 @@ export default function Portfolio() {
         />
 
         {/* Purple Blob Decoration - Fixed Position */}
-       
+        <div className="absolute right-80 top-0 bottom-0 w-[500px] lg:w-[450px] pointer-events-none z-10 flex items-center justify-center">
+          <div
+            className="rotate-animation w-full h-full"
+            style={{
+              backgroundImage:
+                "url(https://zelio-html-demo.vercel.app/assets/imgs/hero/hero-1/decorate.png)",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              opacity: 0.85,
+            }}
+          />
+        </div>
+
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="lg:hidden absolute top-20 left-0 right-0 bg-[#1a1a1a] z-40 py-6 px-6 mx-4 rounded-lg">
@@ -107,19 +120,19 @@ export default function Portfolio() {
 
         {/* Hero Section */}
         <div className="relative z-20 px-6 lg:px-16 pt-16 lg:pt-24 pb-20">
-          <div className="max-w-8xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative">
+          <div className="max-w-8xl  grid lg:grid-cols-2 gap-12 lg:items-center relative">
             {/* Left Content */}
-            <div className="space-y-1 ml-15">
+            <div className="space-y-1 lg:mx-15">
               <div className="flex items-center gap-2 text-sm">
                 <span className="text-2xl">👋</span>
                 <span className="text-gray-400">Hi there, I'm William</span>
               </div>
 
               <div className="space-y-1">
-                <h1 className="text-5xl lg:text-[72px] font-[600]  leading-tight tracking-tight">
+                <h1 className="text-5xl lg:text-[62px] font-[600]  leading-tight tracking-tight">
                   Crafting Intuitive
                 </h1>
-                <h1 className="text-5xl lg:text-[72px] font-[600] leading-tight tracking-tight bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+                <h1 className="text-5xl lg:text-[62px] font-[500] leading-tight tracking-tight bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
                   Digital Experiences
                 </h1>
               </div>
