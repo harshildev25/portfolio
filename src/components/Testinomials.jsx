@@ -8,42 +8,42 @@ const Testimonials = () => {
     {
       id: 1,
       company: 'CRI',
-      companyFull: 'CRI tech',
+      
       rating: 5,
-      text: '"Working with William was an absolute pleasure. His attention to detail and user-focused design approach significantly improved our product\'s usability."',
+      text: '"The project was delivered with exceptional quality and attention to detail. The final product exceeded expectations and provided an excellent user experience."',
      
-      name: 'John Doe',
-      position: 'Head of Legal and Compliance, Tech Innovations'
+      name: 'John Williams',
+   
     },
     {
       id: 2,
       company: 'Warner',
-      companyFull: 'Warner AVERETT',
+     
       rating: 5,
-      text: '"The project exceeded all expectations. Professional communication and outstanding design quality made this collaboration seamless and productive."',
+      text: '"Clear communication, creative problem-solving, and flawless execution made the entire process smooth and efficient."',
       
       name: 'Sarah Johnson',
-      position: 'Product Manager, Warner Digital'
+      
     },
     {
       id: 3,
       company: 'TechCorp',
-      companyFull: 'TechCorp',
+     
       rating: 5,
-      text: '"Incredible attention to user experience! The redesign dramatically improved our conversion rates and customer satisfaction scores."',
+      text: '"Impressive technical skills and design sense. The final outcome was not only visually stunning but also highly functional and responsive."',
       
       name: 'Michael Chen',
-      position: 'CEO, TechCorp Solutions'
+     
     },
     {
       id: 4,
       company: 'Innovate',
-      companyFull: 'Innovate Labs',
+      
       rating: 5,
-      text: '"Outstanding creativity and technical expertise. Delivered a modern, responsive design that perfectly captured our brand vision."',
+      text: '"Every stage of the project was handled with professionalism and creativity. The results perfectly aligned with our vision."',
      
       name: 'Emily Rodriguez',
-      position: 'Marketing Director, Innovate Labs'
+      
     }
   ];
 
@@ -75,7 +75,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-[#262630] py-20 px-4 relative">
+    <section className="bg-[#1f1e25] py-20 px-4 relative">
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}

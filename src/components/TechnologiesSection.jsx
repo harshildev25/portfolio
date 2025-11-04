@@ -86,7 +86,7 @@ const TechnologiesSection = () => {
   }, []);
 
   return (
-    <section className="bg-[#1f1e25] py-20 px-4">
+    <section id='portfolio' className="bg-[#1f1e25] py-20 px-4">
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}

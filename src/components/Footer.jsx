@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#22232f] text-white py-12">
+    <footer className="bg-[#1f1e25] text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="flex flex-col items-center space-y-8">
@@ -34,12 +34,8 @@ const Footer = () => {
             <a href="#portfolio" className="hover:text-white transition-colors duration-200">
               Portfolio
             </a>
-            <a href="#pricing" className="hover:text-white transition-colors duration-200">
-              Pricing
-            </a>
-            <a href="#blog" className="hover:text-white transition-colors duration-200">
-              Blog
-            </a>
+            
+           
             <a href="#contact" className="hover:text-white transition-colors duration-200">
               Contact
             </a>
@@ -58,11 +54,14 @@ const Footer = () => {
       </div>
 
       {/* Scroll to Top Button */}
+     
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className="fixed bottom-8 right-8 bg-[#6f4ef3] hover:bg-purple-600 text-white p-4 rounded-lg shadow-lg transition-all duration-200 hover:scale-110"
+        className="fixed bottom-8 right-8 bg-[#795bf6] hover:bg-[#8b5cf6] text-white p-4 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-200 hover:scale-110"
         aria-label="Scroll to top"
       >
+       
+       
         <svg
           className="w-5 h-5"
           fill="none"
