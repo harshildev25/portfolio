@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Menu, X, Facebook, Twitter, Linkedin, Github, Download, ArrowRight } from "lucide-react";
 import { FaNodeJs, FaReact, FaPython } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import profileImage from '@/assets/image-5-removebg-preview.png';
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -79,15 +80,16 @@ export default function Portfolio() {
                 />
               </div>
               {/* Person Image */}
-              <img
-                src="src/assets/image-5-removebg-preview.png"
-                alt="William"
-                className="relative z-10 w-full max-w-[300px] object-contain object-bottom"
-                style={{
-                  filter: "grayscale(100%) contrast(1.1) brightness(0.9) drop-shadow(0 25px 50px rgba(0, 0, 0, 0.5))",
-                  maxHeight: '450px',
-                }}
-              />
+         <img
+  src={profileImage}
+  alt="Harshil"
+  className="relative z-10 w-full max-w-[300px] object-contain object-bottom"
+  style={{
+    filter: "grayscale(100%) contrast(1.1) brightness(0.9) drop-shadow(0 25px 50px rgba(0, 0, 0, 0.5))",
+    maxHeight: '450px',
+  }}
+/>
+
             </div>
 
             {/* Text Content (Mobile) */}
@@ -216,14 +218,15 @@ export default function Portfolio() {
                 />
               </div>
               {/* Person Image */}
-              <img
-                src="src/assets/image-5-removebg-preview.png"
-                alt="William"
-                className="relative z-10 w-full max-w-[500px] h-auto object-contain"
-                style={{
-                  filter: "grayscale(100%) contrast(1.1) brightness(0.9) drop-shadow(0 25px 50px rgba(0, 0, 0, 0.5))",
-                }}
-              />
+         <img
+  src={profileImage}
+  alt="Harshil"
+  className="relative z-10 w-full max-w-[500px] h-auto object-contain"
+  style={{
+    filter: "grayscale(100%) contrast(1.1) brightness(0.9) drop-shadow(0 25px 50px rgba(0, 0, 0, 0.5))",
+  }}
+/>
+
             </div>
           </div>
         </div>
