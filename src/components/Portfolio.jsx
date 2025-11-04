@@ -110,18 +110,20 @@ export default function Portfolio() {
                I develop end-to-end web solutions that combine intuitive frontends and efficient backends turning user needs into engaging, high-performing digital experiences.
               </p>
 
-            <div className="flex flex-col gap-3 pt-2">
+  <div className="flex flex-col gap-3 pt-2">
   <button 
     onClick={() => {
       const link = document.createElement('a');
-      link.href = 'src/assets/Harshil_Dev_Resume.pdf';
+      link.href = '/Harshil_Dev_Resume.pdf';
       link.download = 'Harshil_Dev_Resume.pdf';
       link.click();
     }}
-    className="group bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-500 hover:to-purple-400 px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center gap-3 shadow-lg shadow-purple-500/30"
+    className="bg-[#8b5cf6] hover:bg-[#7c3aed] text-white font-medium px-6 py-3 rounded-lg flex items-center justify-center gap-2 transition text-sm sm:text-base shadow-lg hover:shadow-2xl hover:shadow-purple-500/50"
   >
-    Download CV
-    <Download size={18} className="group-hover:translate-y-0.5 transition-transform" />
+    Download CV 
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
+    </svg>
   </button>
 </div>
               <div className="pt-4 space-y-4">
@@ -169,14 +171,20 @@ export default function Portfolio() {
 
               </p>
 <div className="flex gap-4 pt-2">
-<a
-  href="src/assets/Harshil_Dev_Resume.pdf"
-  download="Harshil_Dev_Resume.pdf"
-  className="group bg-[#795bf6] hover:bg-[#8b5cf6] px-8 py-4 rounded-full font-medium transition-all flex items-center gap-3 shadow-lg hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105 cursor-pointer"
+<button 
+  onClick={() => {
+    const link = document.createElement('a');
+    link.href = '/Harshil_Dev_Resume.pdf';
+    link.download = 'Harshil_Dev_Resume.pdf';
+    link.click();
+  }}
+  className="bg-[#8b5cf6] hover:bg-[#7c3aed] text-white font-medium px-6 py-3 rounded-lg flex items-center justify-center gap-2 transition text-sm sm:text-base shadow-lg hover:shadow-2xl hover:shadow-purple-500/50"
 >
-  Download CV
-  <Download size={18} className="group-hover:translate-y-0.5 transition-transform" />
-</a>
+  Download CV 
+  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
+  </svg>
+</button>
 
 </div>
 
